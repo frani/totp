@@ -1,0 +1,36 @@
+{
+  "name": "time-based-one-time-password",
+  "description": "Time based One Time Password generator code - this is a no-depenencies package",
+  "version": "1.0.0",
+  "homepage": "https://github.com/frani/totp",
+  "author": "frani franinnocenti@gmail.com",
+  "contributors": [
+    "frani (https://frani.dev)"
+  ],
+  "repository": "@frani/totp",
+  "bugs": {
+    "url": "https://github.com/frani/totp/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "otp",
+    "totp",
+    "time based one time password",
+    "one time password",
+    "no depenencies",
+    "no deps"
+  ],
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
