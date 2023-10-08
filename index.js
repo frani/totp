@@ -22,7 +22,7 @@ const generate = ({ secret = "secret", timeStep = 30, digits = 6 }) => {
   const counterBuffer = Buffer.alloc(8);
   counterBuffer.writeBigInt64BE(BigInt(counter), 0);
 
-  const hmac = crypto.createHmac("sha1", secret);
+  const hmac = crypto.createHmac("sha256", secret);
   hmac.update(counterBuffer);
   const hash = hmac.digest();
 
