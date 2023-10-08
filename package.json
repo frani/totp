@@ -1,7 +1,7 @@
 {
   "name": "@frani/totp",
   "description": "Time based One Time Password generator code - this is a no-depenencies package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "homepage": "https://github.com/frani/totp",
   "author": "frani <franinnocenti@gmail.com>",
